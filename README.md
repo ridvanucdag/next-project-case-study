@@ -62,7 +62,7 @@ Bu proje, Next.js 15 ve React 19 kullanılarak geliştirilmiş basit bir fronten
 ### Kurulum Adımları
 
 ```bash
-git clone https://github.com/kullaniciAdi/frontend-case-project.git
+git clone https://github.com/ridvanucdag/next-project-case-study.git
 cd frontend-case-project
 yarn install 
 npm install
