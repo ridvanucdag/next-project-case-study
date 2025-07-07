@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import NextContextProvider from "@/requests/base/NextContextProvider";
+import Header from "@/app/pages/Header/page";
+import { ThemeProvider } from "@/contexts/ThemeContext";
+import { CartProvider } from "@/contexts/CartContext";
+import { ToastProvider } from "@/contexts/ToastContext";
+import Toast from "@/components/Toast/Toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,9 +29,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <ThemeProvider>
+          <NextContextProvider>
+            <ToastProvider>
+              <CartProvider>
+                <Header />
+                {children}
+                <Toast />
+              </CartProvider>
+            </ToastProvider>
+          </NextContextProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

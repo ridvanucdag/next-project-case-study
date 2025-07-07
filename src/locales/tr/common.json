@@ -1,0 +1,66 @@
+{
+  "search": {
+    "placeholder": "Arama Yap"
+  },
+  "products": {
+    "title": "Ürünler",
+    "errorOccurred": "Hata oluştu!",
+    "resultsFound": "{{count}} ürün bulundu",
+    "searchQuery": "Arama",
+    "sort": "Sırala:",
+    "sortOptions": {
+      "default": "Varsayılan",
+      "priceAsc": "Fiyat: Düşükten Yükseğe",
+      "priceDesc": "Fiyat: Yüksekten Düşüğe",
+      "rating": "En Yüksek Puan",
+      "titleAsc": "İsme göre (A-Z)",
+      "titleDesc": "İsme göre (Z-A)"
+    },
+    "filters": "Filtreler",
+    "category": "Kategori",
+    "allCategories": "Tüm Kategoriler",
+    "priceRange": "Fiyat Aralığı",
+    "minPrice": "Min ₺",
+    "maxPrice": "Max ₺",
+    "resetFilters": "Filtreleri Sıfırla",
+    "noResults": "Filtre kriterlerinize uygun ürün bulunamadı.",
+    "previous": "Önceki",
+    "next": "Sonraki"
+  },
+  "cart": {
+    "continueShopping": "Alışverişe Devam Et",
+    "cartEmptyTitle": "Sepetiniz Şu Anda Boş",
+    "cartEmptyDesc": "Keşfetmeye devam edin ve favori ürünlerinizi sepete ekleyin. Özel tekliflerimizden yararlanmayı unutmayın!",
+    "cartTitle": "Alışveriş Sepetim",
+    "clearCart": "Sepeti Temizle",
+    "orderSummary": "Sipariş Özeti",
+    "products": "Ürünler",
+    "shipping": "Kargo",
+    "freeShipping": "Ücretsiz",
+    "total": "Toplam",
+    "securePayment": "Güvenli Ödeme",
+    "quantityIncrease": "Arttır",
+    "quantityDecrease": "Azalt",
+    "remove": "Kaldır",
+    "discoverProducts": "Ürünleri Keşfet"
+  },
+    "product": {
+    "toast": {
+      "added": "Ürün başarılı bir şekilde eklendi!",
+      "alreadyInCart": "Ürün zaten sepete ekli"
+    },
+    "loading": "Yükleniyor...",
+    "notFound": "Ürün bulunamadı!",
+    "breadcrumb": {
+      "home": "Ana Sayfa"
+    },
+    "noImage": "Ürün resmi",
+    "reviews": "değerlendirme",
+    "description": {
+      "title": "Açıklama",
+      "notAvailable": "Açıklama bulunmamaktadır."
+    },
+    "addToCart": "Sepete Ekle",
+    "buyNow": "Hemen Satın Al"
+  }
+}

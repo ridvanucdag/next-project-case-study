@@ -1,0 +1,66 @@
+{
+  "search": {
+    "placeholder": "Search"
+  },
+  "products": {
+    "title": "Products",
+    "errorOccurred": "An error occurred!",
+    "resultsFound": "{{count}} products found",
+    "searchQuery": "Search",
+    "sort": "Sortby:",
+    "sortOptions": {
+      "default": "Default",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "rating": "Highest Rating",
+      "titleAsc": "Name (A-Z)",
+      "titleDesc": "Name (Z-A)"
+    },
+    "filters": "Filters",
+    "category": "Category",
+    "allCategories": "All Categories",
+    "priceRange": "Price Range",
+    "minPrice": "Min ₺",
+    "maxPrice": "Max ₺",
+    "resetFilters": "Reset Filters",
+    "noResults": "No products matched your filter criteria.",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "cart": {
+    "continueShopping": "Continue Shopping",
+    "cartEmptyTitle": "Your cart is currently empty",
+    "cartEmptyDesc": "Keep exploring and add your favorite products to the cart. Don’t miss our special offers!",
+    "cartTitle": "My Shopping Cart",
+    "clearCart": "Clear Cart",
+    "orderSummary": "Order Summary",
+    "products": "Products",
+    "shipping": "Shipping",
+    "freeShipping": "Free",
+    "total": "Total",
+    "securePayment": "Secure Payment",
+    "quantityIncrease": "Increase",
+    "quantityDecrease": "Decrease",
+    "remove": "Remove",
+    "discoverProducts": "Discover Products"
+  },
+  "product": {
+    "toast": {
+      "added": "Product successfully added!",
+      "alreadyInCart": "Product is already in the cart"
+    },
+    "loading": "Loading...",
+    "notFound": "Product not found!",
+    "breadcrumb": {
+      "home": "Home"
+    },
+    "noImage": "Product image",
+    "reviews": "reviews",
+    "description": {
+      "title": "Description",
+      "notAvailable": "No description available."
+    },
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now"
+  }
+}

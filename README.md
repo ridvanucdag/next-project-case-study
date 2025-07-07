@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Case Project - Rıdvan Üçdağ
 
-## Getting Started
+## İçindekiler
 
-First, run the development server:
+- [Proje Hakkında](#proje-hakkında)
+- [Teknolojiler](#teknolojiler)
+- [Proje Kurulumu](#proje-kurulumu)
+- [Projeyi Çalıştırma](#projeyi-çalıştırma)
+- [Atomic Tasarım Yapısı](#atomic-tasarım-yapısı)
+- [Testler ve Test Coverage](#testler-ve-test-coverage)
+- [Performans Ölçümü - Lighthouse](#performans-ölçümü---lighthouse)
+- [Katkıda Bulunma](#katkıda-bulunma)
+- [Lisans](#lisans)
+
+---
+
+## Proje Hakkında
+
+Bu proje, Next.js 15 ve React 19 kullanılarak geliştirilmiş bir frontend e-ticaret uygulamasıdır.  
+Ürün listeleme, detay görüntüleme, sepet yönetimi, çoklu dil desteği, animasyonlar ve daha fazlasını içeren kapsamlı bir yapı sunar.
+
+Özellikler:
+
+- Ürünleri listeleme ve filtreleme
+- Ürün detay sayfası
+- Sepete ürün ekleme, çıkarma ve adet yönetimi
+- Tema değiştirme (light/dark mode)
+- Çoklu dil desteği (i18n)
+- React Query ile veri fetching ve cache yönetimi
+- Framer Motion ile animasyonlar
+- Responsive ve erişilebilir arayüz
+
+---
+
+## Teknolojiler
+
+- **Next.js 15** – React tabanlı framework  
+- **React 19** – UI kütüphanesi  
+- **TypeScript** – Statik tip kontrolü  
+- **React Query (TanStack)** – API veri yönetimi  
+- **Axios & axios-retry** – HTTP istekleri  
+- **i18next** – Çoklu dil desteği  
+- **Framer Motion** – Animasyonlar  
+- **React Icons** – İkon kütüphanesi  
+- **Jest & React Testing Library** – Test altyapısı
+
+---
+
+## Proje Kurulumu
+
+### Gereksinimler
+
+- Node.js (v18 veya üzeri önerilir)  
+- Yarn veya npm
+
+### Kurulum Adımları
 
 ```bash
-npm run dev
-# or
+git clone https://github.com/kullaniciAdi/frontend-case-project.git
+cd frontend-case-project
+yarn install
+# veya
+npm install
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Project test covarege](./public/test.png)
