@@ -43,19 +43,27 @@ Bu proje, Next.js 15 ve React 19 kullanılarak geliştirilmiş basit bir fronten
 
 ## Proje Kurulumu
 
+
+
 ### Gereksinimler
 
 - Node.js (v18 veya üzeri önerilir)  
 - Yarn veya npm
+
+---
+
+## Testler ve Test Coverage
+![Test Sonucu](public/test.png)
+
+--
 
 ### Kurulum Adımları
 
 ```bash
 git clone https://github.com/kullaniciAdi/frontend-case-project.git
 cd frontend-case-project
-yarn install # veya  
+yarn install 
 npm install
 yarn dev
 
-## Test Ekran Görüntüsü
-![Test Sonucu](src/image/test.png)
+---
