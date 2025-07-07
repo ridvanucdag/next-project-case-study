@@ -57,4 +57,5 @@ yarn install # veya
 npm install
 yarn dev
 
-![Project test covarege](public/test.png)
+## Test Ekran Görüntüsü
+![Test Sonucu](src/image/test.png)
