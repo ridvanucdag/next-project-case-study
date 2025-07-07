@@ -1,5 +1,7 @@
 # Frontend Case Project - Rıdvan Üçdağ
 
+DEMO : https://ridvan-next-project-study.netlify.app/
+
 ## İçindekiler
 
 - [Proje Hakkında](#proje-hakkında)
