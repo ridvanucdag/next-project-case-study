@@ -5,19 +5,14 @@
 - [Proje Hakkında](#proje-hakkında)
 - [Teknolojiler](#teknolojiler)
 - [Proje Kurulumu](#proje-kurulumu)
-- [Projeyi Çalıştırma](#projeyi-çalıştırma)
-- [Atomic Tasarım Yapısı](#atomic-tasarım-yapısı)
 - [Testler ve Test Coverage](#testler-ve-test-coverage)
-- [Performans Ölçümü - Lighthouse](#performans-ölçümü---lighthouse)
-- [Katkıda Bulunma](#katkıda-bulunma)
-- [Lisans](#lisans)
 
 ---
 
 ## Proje Hakkında
 
-Bu proje, Next.js 15 ve React 19 kullanılarak geliştirilmiş bir frontend e-ticaret uygulamasıdır.  
-Ürün listeleme, detay görüntüleme, sepet yönetimi, çoklu dil desteği, animasyonlar ve daha fazlasını içeren kapsamlı bir yapı sunar.
+Bu proje, Next.js 15 ve React 19 kullanılarak geliştirilmiş basit bir frontend e-ticaret uygulamasıdır.  
+Ürün listeleme, detay görüntüleme, sepet yönetimi, çoklu dil desteği, animasyonlar ve daha fazlasını içeren basit bir yapı sunar.
 
 Özellikler:
 
@@ -58,10 +53,8 @@ Bu proje, Next.js 15 ve React 19 kullanılarak geliştirilmiş bir frontend e-ti
 ```bash
 git clone https://github.com/kullaniciAdi/frontend-case-project.git
 cd frontend-case-project
-yarn install
-# veya
+yarn install # veya  
 npm install
 yarn dev
 
-
-![Project test covarege](./public/test.png)
+![Project test covarege](public/test.png)
